@@ -1,0 +1,13 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/$USER/public_html/
+    - /bin/cp -r index.html $DEPLOYPATH
+    - /bin/cp -r about.html $DEPLOYPATH
+    - /bin/cp -r contact.html $DEPLOYPATH
+    - /bin/cp -r styles.css $DEPLOYPATH
+    - /bin/cp -r cursor.js $DEPLOYPATH
+    - /bin/cp -r robots.txt $DEPLOYPATH
+    - /bin/cp -r sitemap.xml $DEPLOYPATH
+    - /bin/cp -r arova-logo.png $DEPLOYPATH
+    - /bin/cp -r fevicons $DEPLOYPATH
